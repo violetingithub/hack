@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>部署测试页</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #89f7fe, #66a6ff);
+            color: #333;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        button {
+            background: #0078ff;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        button:hover {
+            background: #005fcc;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🚀 部署测试成功！</h1>
+    <p>如果你能看到这句话，说明前端页面部署成功。</p>
+    <button onclick="showMessage()">点我试试</button>
+
+    <script>
+        function showMessage() {
+            alert("🎉 恭喜，JavaScript 也能正常运行！");
+        }
+    </script>
+</body>
+
+</html>
